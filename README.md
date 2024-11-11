@@ -13,3 +13,7 @@ Tools: VS Code, IntellijIdea, PgAdmin(PostgreSQL), Postman, JWT Validator.
 
 
 ![Screenshot 2024-11-11 160359](https://github.com/user-attachments/assets/0488e2c5-7369-4e6f-8296-f57e7ca3d0cc)
+
+POSTMAN WORKING:
+![Screenshot 2024-11-11 160531](https://github.com/user-attachments/assets/99418058-cd1f-4130-a5ad-c9947bc120db)
+
