@@ -12,3 +12,4 @@ Tools: VS Code, IntellijIdea, PgAdmin(PostgreSQL), Postman, JWT Validator.
 ![SkillCapital image 2](https://github.com/user-attachments/assets/f4371bab-9721-402f-aa90-a232a923d9cc)
 
 
+![Screenshot 2024-11-11 160359](https://github.com/user-attachments/assets/0488e2c5-7369-4e6f-8296-f57e7ca3d0cc)
