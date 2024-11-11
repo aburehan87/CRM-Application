@@ -1,0 +1,66 @@
+                                                     U S E R
+
+
+
+METHODS                                 POSTMAN REQUEST                 API CALLS
+-------                                 ----------------                ----------
+
+FOR REGISTERING AND LOGIN:                                              /api/auth
+
+1. Register :                           POST                            /api/auth/register
+2. Login    :                           POST                            /api/auth/login
+
+FOR CRUD OPERATIONS:                                                    /api/users
+
+1. Find All Users:                      GET                             /api/users/all
+2. Get User By ID:                      GET                             /api/users/{id}
+3. Get User By Username:                GET                             /api/users/username/{username}
+4. Update User By ID:                   PUT                             /api/users/{id}
+5. Deleting User:                       DELETE                          /api/users/{id}
+
+
+                                                      L E A D S
+
+                                                                        /api/leads
+
+1. Registering Lead:                    POST                            /api/leads/register
+2. Get All:                             GET                             /api/leads/all
+3. Find Lead By ID:                     GET                             /api/leads/{id}
+4. Find Lead By Username:               GET                             /api/leads/name/{name}
+5  Update Lead By ID:                   PUT                             /api/leads/{id}
+6. Delete Lead By ID:                   DELETE                          /api/leads/{id}
+
+
+                                                 O P P O R T U N I T I E S
+
+                                                                        /api/opportunities
+
+1. Registering Opportunity              POST                            /api/opportunities/register
+2. Get All Opportunities                GET                             /api/opportunities/all
+3. Get Opportunity By Id                GET                             /api/opportunities/{id}
+4. Get Opportunity By Name              GET                             /api/opportunities/name/{name}
+5. Update Opportunity By ID             PUT                             /api/opportunities/{id}
+6. Delete Opportunity By ID             DELETE                          /api/opportunities/{id}
+
+
+                                                      L E A R N E R S
+
+                                                                        /api/learners
+
+1. Register Learner                     POST                            /api/learners/register
+2. Get All Learners                     GET                             /api/learners/all
+3. Get Learner By ID                    GET                             /api/learners/{id}
+4. Get Learner By Username              GET                             /api/learners/name/{name}
+5. Update Learner By ID                 PUT                             /api/learners/{id}
+6. Delete Learner By ID                 DELETE                          /api/learners/{id}
+
+
+                                                      C O U R S E S
+
+                                                                        /api/courses
+
+1. Register Course                      POST                            /api/courses/register
+2. Get All Courses                      GET                             /api/courses/all
+3. Get Course By ID                     GET                             /api/courses/{id}
+4. Update Course By ID                  PUT                             /api/courses/{id}
+5. Delete Course By ID                  DELETE                          /api/courses/{id}

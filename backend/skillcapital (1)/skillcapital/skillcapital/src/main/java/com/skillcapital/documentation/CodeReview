@@ -1,0 +1,39 @@
+                                   [ C O D E                             R E V I E W ]
+    CREATED A BACK END FOR THE WEBSITE "skillcapital.ai"
+    USING JAVA, POSTGRESQL, SPRING DATA JPA SPRING SECURITY SPRING BOOT HIBERNATE JWT TOKENS POSTMAN LOMBOK AND MANY MORE TECH STACKS.
+
+Implementation Steps:
+1.  Created A User Entity Class for defining the Entities of how a User Class should look like
+2.  Created A UserService for creating methods for CRUD operations
+3.  Created A UserController for API Call endpoints.
+4.  Created A UserRepository that extends JPA Repository for using all the JpaRepository methods.
+5.  Follow All these methods for different Packages like Users, Leads, Opportunities, Learners, Courses.
+6.  Created A config package that handles the SecurityConfiguration, this class is used to grant permissions for the API calls    made by the user, .permitAll() grants all the API Call permissions.
+7.  Created JWT package for Initializing the JWT Tokens, JWT Token operations and also validating the JWT Tokens for the user o
+    on successfully login of the user, The JWT Tokens expiry has been set to 1 day(22 hours approx)
+8.  Created AuthController separately for the Registration and login of the user, When u enter the password for the user, it by
+    crypts the password and saves it in the form of HashedPassword for the security purpose.
+9.  CustomUserDetails will Grant Permissions for USER and ADMIN role if there are any.
+10. CustomUserDetailsService will provide functionality for finding/loading the user by username.
+11. Created a LoginRequest for ensuring password and Username.
+12. Just like the UserPackage, all the other Leads, Learners, Opportunities, Courses packages have been implemented for CRUD operations that will provide Different CRUD API calls for the user.
+13. In ApplicationProperties all the configurations have been saved for PostgreSQL such as name of the database, password for automatically connecting the database with the code, The Spring Boot code will automatically implement tables and columns using the hibernate dependency and no need of explicitly creating or writing queries for the Table or column creation.
+
+    DEPENDENCIES USED:
+1. spring-boot-starter-jpa: used for using all the predefined JPA Repository methods
+2. spring-boot-starter-security: used for using all the security methods provided by spring for password authentication and stuffs
+3. spring-boot-starter-web: used for creating a spring boot based web application in a well structured manner.
+4.postgresql: for connecting code with PostgreSQL.
+5. Lombok: With the help of lombok we can use @Getter @Setter annotations above the class name, this helps in automatically generating the getters and setters rather explicitly writing them, this reduces the lines of code written.
+6. spring-boot-starter-test: Spring Boot Starter Test is used for testing Spring Boot applications with libraries including JUnit Jupiter, Hamcrest, and Mockito. It is the primary dependency for the test.
+7.spring-security-test: same, for spring enhanced security.
+8. jjwt-api: used for jWT tokens api generation.
+9. jjwt-impl: used for implementing the JWT Tokens.
+10. jwt-jackson: JWT (JSON Web Token) is often used in web applications for secure authentication and information exchange. When dealing with JWT in Java applications, especially with Spring Boot.
+11: jjwt: same for using and implementing the JWT tokens.
+12: jackson-databind: for easily and efficiently binding the data with jwt tokens.
+
+
+USED POSTMAN FOR API CALLS AND REQUESTS INSTEAD OF SWAGGER.
+
+

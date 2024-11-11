@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root { */
+  /* --foreground-rgb: 0, 0, 0; */
+  /* --background-start-rgb: 214, 219, 220; */
+  /* --background-end-rgb: 255, 255, 255; */
+/* } */
+
+/* @media (prefers-color-scheme: dark) { */
+  /* :root { */
+    /* --foreground-rgb: 255, 255, 255; */
+    /* --background-start-rgb: 0, 0, 0; */
+    /* --background-end-rgb: 0, 0, 0; */
+  /* } */
+/* } */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+.login-btn{
+  opacity: 0.8;
+  /* background: rgb(228,147,48);
+  background: linear-gradient(120deg, rgba(228,147,48,0.9865196078431373) 21%, rgba(203,79,119,1) 62%); */
+  background: rgb(181,161,213);
+background: linear-gradient(120deg, rgba(181,161,213,0.9865196078431373) 11%, rgba(189,182,200,0.9865196078431373) 47%, rgba(128,127,213,1) 82%);
+}
+.login-form{
+  box-shadow: 0px 0px 2px gray;
+}
+.navbar{
+  box-shadow: 0px 0px 20px grey;
+}
+/* .onemore{
+  overflow-y: scroll;
+} */
