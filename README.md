@@ -4,5 +4,6 @@ Back End: Java, PostgreSQL, Hibernate, Spring Data JPA, Spring Boot, Spring Secu
 Tools: VS Code, IntellijIdea, PgAdmin(PostgreSQL), Postman, JWT Validator.
 
 
-![image](https://github.com/user-attachments/assets/7d458e8c-a4a4-49b5-85a4-acdbd2717bf7)
+![Skill Capital Image](https://github.com/user-attachments/assets/4b449127-47d8-4413-a9cb-25818ae6a7dd)
+
 
